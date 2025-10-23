@@ -1,0 +1,5 @@
+# asdf tool versions and Flutter app pointer
+flutter stable
+dart system
+# Flutter app lives at:
+# tic_tac_toe_flutter_frontend

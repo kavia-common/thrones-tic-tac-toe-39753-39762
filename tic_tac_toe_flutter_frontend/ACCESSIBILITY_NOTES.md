@@ -1,8 +1,8 @@
 # Accessibility Notes
 
-- Tiles are focusable and include semantics labels, values, and hints.
-- Buttons include semantics labels and tooltips.
-- Keyboard navigation:
-  - Use Tab/Shift-Tab to move focus between controls and tiles.
-  - Press Enter/Space to activate a focused tile or button.
-- High-contrast focus color is provided via theme focusColor.
+- Tiles and controls include Semantics with labels, hints, and values.
+- Status text and board semantics use `liveRegion: true` to announce changes.
+- Result banner announces winner/draw as a live region.
+- Reset controls include tooltip and semantics hints (with keyboard shortcut hints).
+- Winning tiles have an animated pulse (WinPulse) with semantics label "Winning tile highlight".
+- Animations are subtle (ScaleTransition + FadeTransition) and run under 250ms to minimize motion sensitivity.

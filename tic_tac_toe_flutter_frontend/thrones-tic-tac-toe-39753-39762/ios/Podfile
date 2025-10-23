@@ -1,0 +1,12 @@
+platform :ios, '12.0'
+
+# Minimal Podfile to satisfy Flutter tool detection for iOS at repo root wrapper.
+install! 'cocoapods', :disable_input_output_paths => true
+
+target 'thrones_tic_tac_toe_root_wrapper' do
+  use_frameworks!
+  use_modular_headers!
+
+  # Flutter dependency placeholder. The actual Flutter app lives in tic_tac_toe_flutter_frontend/.
+  # This wrapper exists only for CI/analyzers that require an iOS host at repo root.
+end

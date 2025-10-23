@@ -1,0 +1,9 @@
+{
+  "flutter_app_relative_path": "tic_tac_toe_flutter_frontend",
+  "notes": [
+    "Run Flutter commands from the path above or use the helper scripts at repo root:",
+    "./flutter_ci_entrypoint.sh",
+    "./run_ci_make.sh",
+    "make analyze && make test"
+  ]
+}

@@ -1,5 +1,6 @@
-This file marks the root of the Flutter project for CI/analyzers.
-Project: tic_tac_toe_flutter_frontend
-Pubspec: pubspec.yaml
-Android: android
-iOS: ios
+This directory is the Flutter project root for Thrones Tic Tac Toe.
+Run Flutter commands here:
+- flutter pub get
+- flutter analyze
+- flutter test
+- flutter run

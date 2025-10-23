@@ -1,0 +1,4 @@
+flutter_app_path: tic_tac_toe_flutter_frontend
+notes:
+  - "Run Flutter commands inside the path above."
+  - "Use ./flutter_ci_entrypoint.sh from repo root to run analyze and tests."

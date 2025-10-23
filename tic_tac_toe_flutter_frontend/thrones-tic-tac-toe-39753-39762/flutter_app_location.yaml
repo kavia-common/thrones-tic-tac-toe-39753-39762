@@ -1,0 +1,4 @@
+flutter_app_path: tic_tac_toe_flutter_frontend
+notes:
+  - Run ./run_flutter_from_root.sh from repository root for CI-friendly analyze/test.
+  - Makefile target available: make ci

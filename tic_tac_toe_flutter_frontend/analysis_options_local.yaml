@@ -1,0 +1,13 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - .dart_tool/**
+  language:
+    strict-inference: true
+
+linter:
+  rules:
+    prefer_const_constructors: true
+    avoid_print: true

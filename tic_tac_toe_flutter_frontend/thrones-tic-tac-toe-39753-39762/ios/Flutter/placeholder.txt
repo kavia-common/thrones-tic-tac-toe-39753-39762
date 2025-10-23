@@ -1,0 +1,2 @@
+This is a placeholder to help analysis tools recognize a Flutter-style repository layout at the root.
+The actual Flutter app is located at ./tic_tac_toe_flutter_frontend.

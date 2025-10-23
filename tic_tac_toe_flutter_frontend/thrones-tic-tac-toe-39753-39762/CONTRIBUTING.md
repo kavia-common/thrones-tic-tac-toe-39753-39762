@@ -1,17 +1,20 @@
 # Contributing
 
-This repository contains a Flutter app at:
+The Flutter application lives under:
 - tic_tac_toe_flutter_frontend/
 
-Run from repository root using helper scripts:
-- ./ci_all.sh       # pub get, analyze, test
-- ./ci_analyze.sh   # analyze only
-- ./ci_test.sh      # tests only
-- ./run_flutter_ci.sh  # validated discover + analyze + test runner
-
-Or run directly inside the app:
+Local development:
 - cd tic_tac_toe_flutter_frontend
 - flutter pub get
 - flutter analyze
 - flutter test
 - flutter run
+
+CI usage (from repository root):
+- ./flutter_ci_entrypoint.sh
+- ./run_flutter_from_root.sh
+- make analyze && make test
+
+Notes:
+- This repository contains a number of helper scripts and markers that point CI to the app directory.
+- Do not run flutter commands at the repository root unless you are using one of the provided scripts, which cd into the app directory.

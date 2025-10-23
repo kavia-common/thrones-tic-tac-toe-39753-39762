@@ -1,9 +1,11 @@
-# This file is used by Flutter tools to store metadata about the Flutter project.
-# This file should be version controlled and should not be manually edited.
+# This file tracks properties of this Flutter project.
+# Used by Flutter tools to determine project root and migration state.
 version:
   revision: "stable"
   channel: "stable"
+
 project_type: app
+
 migration:
   platforms:
     - android
@@ -12,3 +14,4 @@ migration:
     - macos
     - web
     - windows
+  unmanaged_files: []

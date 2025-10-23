@@ -1,13 +1,14 @@
 # Changelog
 
 ## 1.0.0
-- Ocean Professional theme with subtle gradient and soft shadows
-- Accessibility: Semantics for tiles, status, and controls
-- Subtle animations: Scale/Fade on move placement, animated result banner
-- Winning line highlight and polished board visuals
-- Score persistence via shared_preferences
+- Initial themed build (Ocean Professional)
+- 3x3 board with GoT icons (X/O)
+- Win/draw detection with winning tile highlight
+- Score persistence with shared_preferences
+- Reset board and reset scores
 - Provider state management
-- Asset precache for icons to reduce jank
-- Tests: model, widget smoke, and integration launch
-- CI helpers: flutterw wrapper, root scripts to analyze/test/build from repo root
-- Documentation updates: README, ABOUT, RUNNING, and troubleshooting pointers
+- Accessibility semantics for tiles, status, and results
+- Subtle animations (fade/scale) and winning pulse
+- About dialog and Help page (keyboard + a11y guidance)
+- Tests: smoke build, about dialog, assets sanity, help navigation
+- Documentation: README, ACCESSIBILITY_NOTES, PERFORMANCE_NOTES, TROUBLESHOOTING

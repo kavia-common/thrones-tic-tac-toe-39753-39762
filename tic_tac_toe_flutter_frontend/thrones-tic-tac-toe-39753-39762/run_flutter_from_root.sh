@@ -1,19 +1,25 @@
-#!/usr/bin/env bash
-# Robust root runner: finds the real Flutter app and runs analyze/test.
-set -euo pipefail
+#!/usr/bin/env sh
+set -eu
+# Resolve repo root
+ROOT_DIR="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
+APP_REL="tic_tac_toe_flutter_frontend"
+APP_DIR="$ROOT_DIR/$APP_REL"
 
-ROOT_DIR="$(cd "$(dirname "$0")" && pwd)"
-APP_DIR="$ROOT_DIR/tic_tac_toe_flutter_frontend"
-PUBSPEC="$APP_DIR/pubspec.yaml"
-
-if [[ ! -f "$PUBSPEC" ]]; then
-  echo "Error: Unable to locate Flutter app pubspec at $PUBSPEC" >&2
+if [ ! -d "$APP_DIR" ]; then
+  echo "Error: Flutter app directory not found at $APP_REL" >&2
   exit 1
 fi
 
-echo "Detected Flutter app at: $APP_DIR"
-( cd "$APP_DIR" && flutter pub get )
-( cd "$APP_DIR" && flutter analyze )
-( cd "$APP_DIR" && flutter test || true )
-echo "To run the app on a device/emulator:"
-echo "  cd \"$APP_DIR\" && flutter run"
+echo "Changing directory to Flutter app: $APP_DIR"
+cd "$APP_DIR"
+
+echo "flutter pub get"
+flutter pub get
+
+echo "flutter analyze"
+flutter analyze
+
+echo "flutter test -r expanded"
+CI=true flutter test -r expanded
+
+echo "Completed successfully."

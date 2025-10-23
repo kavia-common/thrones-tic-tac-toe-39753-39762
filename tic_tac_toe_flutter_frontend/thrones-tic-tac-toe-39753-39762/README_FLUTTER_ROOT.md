@@ -1,12 +1,7 @@
-Flutter project root path:
-tic_tac_toe_flutter_frontend
+The Flutter application is located at:
 
-From workspace root:
-- ./flutter_ci.sh analyze
-- ./flutter_ci.sh test
+tic_tac_toe_flutter_frontend/
 
-Or:
-- cd tic_tac_toe_flutter_frontend
-- flutter pub get
-- flutter analyze
-- flutter test
+Use one of these from repository root:
+- ./flutter_ci_entrypoint.sh
+- cd tic_tac_toe_flutter_frontend && flutter pub get && flutter analyze && flutter test -r expanded

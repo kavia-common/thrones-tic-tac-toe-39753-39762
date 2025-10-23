@@ -1,6 +1,6 @@
 # flutter_project_root: true
 name: tic_tac_toe_flutter_frontend
-description: "Thrones Tic Tac Toe Flutter app with Ocean Professional theme, accessibility, and subtle animations."
+description: "Thrones Tic Tac Toe - Flutter app with Ocean Professional theme, accessibility, and subtle animations."
 publish_to: 'none'
 
 version: 1.0.0+1

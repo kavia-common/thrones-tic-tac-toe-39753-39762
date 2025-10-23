@@ -2,10 +2,6 @@
 
 Thrones Tic Tac Toe: A Game of Thrones-styled Tic Tac Toe built with Flutter.
 
-Entrypoints
-- lib/main.dart (wraps Provider and launches App)
-- lib/app.dart (MaterialApp, routes, pages)
-
 Features
 - Ocean Professional theme (primary #2563EB, secondary/success #F59E0B, error #EF4444, background #F9FAFB, surface #FFFFFF, text #111827)
 - Gradient background, rounded corners, subtle shadows
@@ -29,36 +25,27 @@ Assets
   - assets/icons/got_x.png
   - assets/icons/got_o.png
 
-Icon guidance
-- Recommended PNG sizes: 256x256 (or 512x512) with a transparent background.
-- Keep the filenames exactly as referenced in code and pubspec.yaml.
-- After replacing icons, run:
-  - flutter pub get
-  - flutter clean (if needed)
-  - flutter run
-
 Run locally (from app directory)
 1) cd tic_tac_toe_flutter_frontend
 2) flutter pub get
 3) flutter run
    - To run on a specific device: flutter devices, then flutter run -d <device_id>
 
-Run from workspace root (CI-friendly)
-- ./ci_all.sh       # get, analyze, test
-- ./ci_analyze.sh   # analyze only
-- ./ci_test.sh      # tests only
-- ./run_flutter_ci.sh  # validated discover + analyze + test runner
+Tests quickstart (from app directory)
+- flutter pub get
+- flutter analyze
+- flutter test -r expanded
+- For integration tests: flutter test integration_test
 
 Notes
 - Scores are persisted using shared_preferences across sessions.
 - The board resets keep scores; resetting scores also clears the board.
 - Animations use AnimatedSwitcher and ScaleTransition for a polished experience.
+- Accessibility: Tiles and controls include Semantics. Keyboard support (Space/Enter) is enabled on tiles via BoardShortcuts; status/result announcements use live regions.
 
-Accessibility
-- Tiles have semantics labels (Tile 1..9) with state and hints.
-- Result banner, status, and menu controls include semantics.
-- Buttons include Semantics and Tooltips for clarity.
-
-Asset precache
-- Icons are precached at startup to minimize first-draw jank.
-- If you rename or move icons, update paths in lib/widgets/asset_precache.dart and board_grid.dart.
+CI note
+- Ensure CI runs Flutter commands inside this directory (tic_tac_toe_flutter_frontend)
+- From repository root, use one of the helper scripts:
+  - ../flutter_ci_entrypoint.sh
+  - ../run_ci_make.sh
+  - make analyze && make test (root Makefile delegates into app directory)

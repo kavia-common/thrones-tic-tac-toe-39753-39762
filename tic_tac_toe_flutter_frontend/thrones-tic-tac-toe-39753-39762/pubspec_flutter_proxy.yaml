@@ -1,0 +1,15 @@
+name: thrones_flutter_proxy
+description: Proxy Flutter app that delegates to tic_tac_toe_flutter_frontend App entrypoint for tooling.
+publish_to: 'none'
+version: 0.0.1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.5+1
+
+flutter:
+  uses-material-design: true

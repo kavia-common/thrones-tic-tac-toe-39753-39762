@@ -1,12 +1,15 @@
 # Assets
 
-This folder contains all app assets.
+This app uses Game of Thrones-styled icons for X and O:
 
-Structure:
-- assets/icons/ (board icons, e.g., got_x.png, got_o.png)
+- assets/icons/got_x.png
+- assets/icons/got_o.png
 
-Notes:
-- Replace placeholder icons with your final images.
-- After updates, run:
-  - flutter pub get
-  - flutter run
+Replace these placeholders with final assets of the same filename and format for production branding.
+
+Ensure pubspec.yaml lists:
+assets:
+  - assets/
+  - assets/icons/
+  - assets/icons/got_x.png
+  - assets/icons/got_o.png

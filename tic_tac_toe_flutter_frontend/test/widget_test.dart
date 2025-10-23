@@ -1,9 +1,10 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
-import 'package:tic_tac_toe_flutter_frontend/public_api.dart';
+import 'package:tic_tac_toe_flutter_frontend/app.dart';
+import 'package:tic_tac_toe_flutter_frontend/models/game_state.dart';
 
 void main() {
-  testWidgets('App renders title and app bar', (tester) async {
+  testWidgets('Builds and shows app title', (tester) async {
     await tester.pumpWidget(
       ChangeNotifierProvider(
         create: (_) => GameState(),

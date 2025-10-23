@@ -1,16 +1,18 @@
-name: thrones_tic_tac_toe_workspace
-description: Workspace meta pubspec pointing to the Flutter app for CI/analyzers.
+name: thrones_tic_tac_toe_root
+description: "Root wrapper for Thrones Tic Tac Toe Flutter app. Actual app lives in ./tic_tac_toe_flutter_frontend"
 publish_to: 'none'
 version: 0.0.1
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: ">=3.0.0 <4.0.0"
 
+# This wrapper does not define Flutter code; use scripts in repository root to run the real app analyze/tests.
+# See:
+#  - ./run_flutter_from_root.sh
+#  - ./run_ci_make.sh
+#  - ./run_ci_one_liner.sh
+#  - ./verify_flutter_root.sh
+
+# Prevent accidental publishing and keep this as a metadata-only marker for CI tooling.
 dependencies:
-  flutter:
-    sdk: flutter
-  tic_tac_toe_flutter_frontend:
-    path: ./tic_tac_toe_flutter_frontend
-
-flutter:
-  uses-material-design: true
+  meta: ^1.11.0

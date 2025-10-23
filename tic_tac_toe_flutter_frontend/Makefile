@@ -1,18 +1,11 @@
-.PHONY: all get analyze test run clean
-
-all: get analyze test
-
-get:
-	flutter pub get
+.PHONY: analyze test format
 
 analyze:
+	flutter pub get
 	flutter analyze
 
 test:
 	CI=true flutter test -r expanded
 
-run:
-	flutter run
-
-clean:
-	flutter clean
+format:
+	dart format --fix lib test

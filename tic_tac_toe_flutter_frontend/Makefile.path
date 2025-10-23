@@ -1,0 +1,3 @@
+.PHONY: app_path
+app_path:
+	@echo "$$(pwd)"

@@ -1,5 +1,6 @@
-# Minimal localization config (no ARB files used yet)
 arb-dir: lib/l10n
 template-arb-file: app_en.arb
 output-localization-file: app_localizations.dart
-untranslated-messages-file: untranslated.txt
+untranslated-messages-file: untranslated_messages.txt
+synthetic-package: false
+use-deferred-loading: false

@@ -1,0 +1,10 @@
+flutter:
+  app_dir: tic_tac_toe_flutter_frontend
+  scripts:
+    - ./verify_flutter_root.sh
+    - ./run_flutter_from_root.sh
+    - ./run_ci_make.sh
+    - ./run_ci_one_liner.sh
+notes:
+  - Ensure Flutter SDK is installed and available in PATH.
+  - All scripts assume execution from repository root.

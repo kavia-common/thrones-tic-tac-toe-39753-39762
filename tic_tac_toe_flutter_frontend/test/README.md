@@ -1,9 +1,11 @@
-Widget and integration tests
+# Running Widget Tests
 
-Run all tests from this app directory:
+Run from this app directory:
+
+- flutter pub get
 - flutter test -r expanded
 
-Run a specific test:
-- flutter test test/board_render_test.dart
-- flutter test test/board_interaction_test.dart
-- flutter test test/accessibility_semantics_test.dart
+If invoking from repository root, use a helper script that changes into the app directory:
+
+- ../run_ci_make.sh
+- ../flutter_ci_entrypoint.sh

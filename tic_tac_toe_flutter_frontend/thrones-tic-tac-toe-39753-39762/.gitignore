@@ -1,18 +1,29 @@
-# Flutter/Dart
-**/.dart_tool/
-**/.flutter-plugins
-**/.flutter-plugins-dependencies
-**/.packages
+# Flutter/Dart artifacts
+.dart_tool/
+.packages
+.pub-cache/
+build/
 **/build/
-**/ios/Pods/
-**/.gradle/
-**/android/.gradle/
-**/android/app/*.iml
 
-# IDE
-**/.idea/
-**/.vscode/
+# Android
+android/.gradle/
+android/local.properties
 
-# Generated
-**/GeneratedPluginRegistrant.java
-**/flutter_export_environment.sh
+# iOS/macOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+macos/Pods/
+*.xcworkspace
+*.xcuserstate
+
+# VSCode/IDE
+.vscode/
+.idea/
+
+# Generated files
+pubspec.lock
+
+# Logs
+*.log
