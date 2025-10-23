@@ -1,0 +1,5 @@
+{
+  "flutter_project_root": "tic_tac_toe_flutter_frontend",
+  "pubspec_path": "tic_tac_toe_flutter_frontend/pubspec.yaml",
+  "notes": "This manifest helps CI and analyzers locate the Flutter project root."
+}

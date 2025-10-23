@@ -1,0 +1,5 @@
+Android module notes:
+- This is part of the Flutter project in this directory.
+- Run from the Flutter app root:
+  flutter pub get
+  flutter build apk

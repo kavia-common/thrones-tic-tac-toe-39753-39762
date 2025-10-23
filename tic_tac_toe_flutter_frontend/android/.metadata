@@ -1,0 +1,6 @@
+# Android module metadata marker for Flutter tool detection.
+# Generated normally by Flutter; placeholder for CI analyzer compatibility.
+version:
+  revision: "0000000000000000000000000000000000000000"
+  channel: "stable"
+project_type: module

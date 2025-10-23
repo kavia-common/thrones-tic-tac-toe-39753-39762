@@ -1,0 +1,6 @@
+# Minimal Podfile placeholder; Flutter tooling will overwrite as needed when ios platform is created.
+platform :ios, '12.0'
+use_frameworks!
+target 'Runner' do
+  # Flutter-managed pods will be inserted here during 'flutter build ios'
+end

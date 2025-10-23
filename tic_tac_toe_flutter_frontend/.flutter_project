@@ -1,0 +1,5 @@
+# Marker file used by some CI/analyzers to detect Flutter project root
+# Pubspec: ./pubspec.yaml
+# Entry: ./lib/main.dart
+project_type: app
+channel: stable

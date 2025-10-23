@@ -1,0 +1,1 @@
+Flutter project root: tic_tac_toe_flutter_frontend

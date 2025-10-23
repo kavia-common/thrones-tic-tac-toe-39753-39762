@@ -1,0 +1,10 @@
+{
+  "app_dir": "tic_tac_toe_flutter_frontend",
+  "pubspec": "tic_tac_toe_flutter_frontend/pubspec.yaml",
+  "run_scripts": [
+    "ci_analyze_and_test.sh",
+    "analyze_with_flutter.sh",
+    "test_with_flutter.sh",
+    "ci_full_pipeline.sh"
+  ]
+}

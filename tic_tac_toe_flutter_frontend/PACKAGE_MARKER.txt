@@ -1,0 +1,3 @@
+package: tic_tac_toe_flutter_frontend
+pubspec: ./pubspec.yaml
+entry: ./lib/main.dart

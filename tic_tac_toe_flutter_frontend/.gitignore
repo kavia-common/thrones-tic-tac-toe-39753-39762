@@ -1,1 +1,22 @@
-.env
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+build/
+**/*.lock
+
+# IntelliJ/Android Studio
+.idea/
+*.iml
+
+# Xcode
+ios/Flutter/Flutter.podspec
+ios/.symlinks/
+ios/Pods/
+macos/Pods/
+
+# VS Code
+.vscode/
+
+# Generated
+coverage/

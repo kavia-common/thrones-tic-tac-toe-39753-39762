@@ -1,0 +1,4 @@
+# This file is used to override dependencies and assist tooling in locating project root.
+# It is safe to keep this minimal; Flutter tooling will ignore it when unused.
+# Keeping it present helps certain CI environments detect the Flutter project root.
+dependency_overrides: {}

@@ -1,0 +1,1 @@
+This folder marks iOS support for CI analyzers. Run `flutter create .` at app root to (re)generate iOS project.

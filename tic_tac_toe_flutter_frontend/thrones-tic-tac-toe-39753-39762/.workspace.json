@@ -1,0 +1,10 @@
+{
+  "projects": [
+    {
+      "name": "tic_tac_toe_flutter_frontend",
+      "type": "flutter",
+      "path": "tic_tac_toe_flutter_frontend",
+      "pubspec": "tic_tac_toe_flutter_frontend/pubspec.yaml"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+# Wrapper pubspec to make the workspace root discoverable as a Flutter project.
+# This delegates to the actual app in ../tic_tac_toe_flutter_frontend
+name: flutter_wrapper
+description: "Wrapper to help CI/tools detect a Flutter project at the workspace root."
+publish_to: 'none'
+version: 0.0.1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+# This wrapper is not a real app; it helps discovery only.
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: false

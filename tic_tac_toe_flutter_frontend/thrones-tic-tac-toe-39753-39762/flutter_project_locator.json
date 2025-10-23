@@ -1,0 +1,4 @@
+{
+  "flutter_project_root": "tic_tac_toe_flutter_frontend",
+  "notes": "Run flutter commands inside this directory. Use ./flutter_ci.sh or ./run_flutter_app.sh from workspace root."
+}

@@ -1,0 +1,6 @@
+concurrency: 1
+timeout: 2x
+platforms:
+  - vm
+tags:
+  ci: true

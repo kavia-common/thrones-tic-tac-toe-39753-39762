@@ -1,0 +1,6 @@
+{
+  "primary": "lib/main.dart",
+  "alternates": [
+    "lib/main_alt.dart"
+  ]
+}

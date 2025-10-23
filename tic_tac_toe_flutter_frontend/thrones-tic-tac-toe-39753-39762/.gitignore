@@ -1,0 +1,18 @@
+# Flutter/Dart
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/build/
+**/ios/Pods/
+**/.gradle/
+**/android/.gradle/
+**/android/app/*.iml
+
+# IDE
+**/.idea/
+**/.vscode/
+
+# Generated
+**/GeneratedPluginRegistrant.java
+**/flutter_export_environment.sh

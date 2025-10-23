@@ -1,0 +1,7 @@
+{
+  "project_type": "flutter",
+  "pubspec": "pubspec.yaml",
+  "lib": "lib",
+  "android": "android",
+  "assets": "assets"
+}

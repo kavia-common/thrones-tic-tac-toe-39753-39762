@@ -1,0 +1,1 @@
+Flutter Linux platform can be enabled via `flutter create --platforms=linux .`.

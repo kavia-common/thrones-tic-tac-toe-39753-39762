@@ -1,0 +1,9 @@
+Thrones Tic Tac Toe
+Copyright (c) 2025
+
+Includes third-party packages:
+- provider (MIT)
+- shared_preferences (BSD)
+- flutter_localizations (BSD-style)
+- cupertino_icons (MIT)
+See each package's LICENSE on pub.dev.

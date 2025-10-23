@@ -1,0 +1,3 @@
+# Flutter workspace configuration
+app_dir: tic_tac_toe_flutter_frontend
+pubspec: tic_tac_toe_flutter_frontend/pubspec.yaml

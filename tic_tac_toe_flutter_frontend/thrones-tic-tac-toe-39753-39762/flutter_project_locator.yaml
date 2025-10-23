@@ -1,0 +1,5 @@
+flutter_project_root: tic_tac_toe_flutter_frontend
+notes: |
+  Run flutter commands from this directory, or use helper scripts:
+  - ./flutter_ci.sh <cmd>
+  - ./run_flutter_app.sh <cmd>

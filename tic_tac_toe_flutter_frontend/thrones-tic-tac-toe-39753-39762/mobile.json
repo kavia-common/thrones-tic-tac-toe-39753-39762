@@ -1,0 +1,7 @@
+{
+  "project_type": "flutter",
+  "root": "tic_tac_toe_flutter_frontend",
+  "pubspec": "tic_tac_toe_flutter_frontend/pubspec.yaml",
+  "android_dir": "tic_tac_toe_flutter_frontend/android",
+  "notes": "This file is used by CI/mobile analyzers to locate the Flutter project root."
+}

@@ -1,23 +1,16 @@
-# Thrones Tic Tac Toe
+# Thrones Tic Tac Toe Workspace
 
-A simple Tic Tac Toe application using Game of Thrones themed icons for X and O.
+This repository contains the Flutter mobile app for Thrones Tic Tac Toe.
 
-- Platform: Flutter (mobile)
-- Theme: Ocean Professional (Blue primary, Amber secondary)
-- Features:
-  - 3x3 grid with GoT icons
-  - Win and draw detection with highlight on winning tiles
-  - Score persistence via shared_preferences
-  - Reset board and reset scores
-  - Provider state management
+Primary Flutter app:
+- Path: tic_tac_toe_flutter_frontend
+- Pubspec: tic_tac_toe_flutter_frontend/pubspec.yaml
 
-Assets:
-- Place your final Game of Thrones icon PNGs at:
-  - assets/icons/got_x.png
-  - assets/icons/got_o.png
-Currently placeholder PNG content is present; please replace with the final assets to achieve the intended look.
-
-Run:
+Quick start:
 - cd tic_tac_toe_flutter_frontend
 - flutter pub get
 - flutter run
+
+CI entrypoint:
+- Use the app path above as the Flutter project root for analyze/test/build.
+- Or run from repository root: ./run_flutter_checks.sh

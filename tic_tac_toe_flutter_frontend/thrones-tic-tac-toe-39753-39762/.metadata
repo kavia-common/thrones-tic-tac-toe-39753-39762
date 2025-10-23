@@ -1,0 +1,4 @@
+# Flutter workspace metadata
+# This workspace hosts a Flutter app under the path below.
+project_type: workspace
+flutter_project_path: tic_tac_toe_flutter_frontend

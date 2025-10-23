@@ -1,0 +1,2 @@
+# Workspace-level analysis config that points to the app-level configuration.
+include: tic_tac_toe_flutter_frontend/analysis_options.yaml

@@ -1,0 +1,1 @@
+Flutter Windows platform can be enabled via `flutter create --platforms=windows .`.

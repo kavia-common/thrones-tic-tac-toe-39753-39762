@@ -1,0 +1,3 @@
+packages:
+  - tic_tac_toe_flutter_frontend
+note: "Helper file for CI/analyzers to locate the Flutter package."

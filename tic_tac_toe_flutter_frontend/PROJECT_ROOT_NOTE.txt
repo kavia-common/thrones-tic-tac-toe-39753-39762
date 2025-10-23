@@ -1,0 +1,3 @@
+This is the Flutter project root.
+Pubspec: ./pubspec.yaml
+Main entry: ./lib/main.dart

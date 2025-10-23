@@ -1,0 +1,6 @@
+project_type: flutter
+root: tic_tac_toe_flutter_frontend
+pubspec: tic_tac_toe_flutter_frontend/pubspec.yaml
+android_dir: tic_tac_toe_flutter_frontend/android
+ios_dir: tic_tac_toe_flutter_frontend/ios
+notes: "YAML manifest for CI analyzers to locate Flutter project root"

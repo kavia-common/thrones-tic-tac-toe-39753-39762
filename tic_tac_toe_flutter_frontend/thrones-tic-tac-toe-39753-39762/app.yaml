@@ -1,0 +1,4 @@
+flutter_project:
+  path: tic_tac_toe_flutter_frontend
+  pubspec: tic_tac_toe_flutter_frontend/pubspec.yaml
+  entry: tic_tac_toe_flutter_frontend/lib/main.dart

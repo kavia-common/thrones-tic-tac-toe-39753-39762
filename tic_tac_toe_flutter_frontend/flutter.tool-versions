@@ -1,0 +1,4 @@
+# Hint file for CI to pin or validate Flutter/Dart tool versions.
+# This is advisory and read by some CI helpers.
+FLUTTER_MIN=3.22.0
+DART_MIN=3.4.0

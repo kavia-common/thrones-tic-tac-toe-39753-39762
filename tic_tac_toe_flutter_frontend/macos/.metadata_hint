@@ -1,0 +1,1 @@
+Flutter macOS platform can be enabled via `flutter create --platforms=macos .`.

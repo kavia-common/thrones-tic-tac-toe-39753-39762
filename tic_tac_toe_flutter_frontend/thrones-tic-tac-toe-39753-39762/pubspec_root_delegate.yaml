@@ -1,0 +1,18 @@
+name: thrones_tic_tac_toe_root_delegate
+description: "Delegate manifest to aid CI tools in locating the Flutter app pubspec."
+publish_to: 'none'
+version: 0.0.1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dependency_overrides:
+  tic_tac_toe_flutter_frontend:
+    path: tic_tac_toe_flutter_frontend
+
+flutter:
+  uses-material-design: false

@@ -1,0 +1,19 @@
+import org.gradle.api.DefaultTask
+import org.gradle.api.tasks.TaskAction
+
+// Simple gradle task wrapper to invoke `flutter analyze` from the app root.
+// Some CI tools call Gradle tasks to verify Android/Flutter projects.
+class FlutterAnalyzeTask extends DefaultTask {
+    @TaskAction
+    def runAnalyze() {
+        println "Running flutter analyze from ${project.rootDir}/.."
+        def process = ["bash","-lc","cd ../ && flutter pub get && flutter analyze"].execute()
+        process.consumeProcessOutput(System.out, System.err)
+        int rc = process.waitFor()
+        if (rc != 0) {
+            throw new GradleException("flutter analyze failed with exit code ${rc}")
+        }
+    }
+}
+
+tasks.register("flutterAnalyze", FlutterAnalyzeTask)

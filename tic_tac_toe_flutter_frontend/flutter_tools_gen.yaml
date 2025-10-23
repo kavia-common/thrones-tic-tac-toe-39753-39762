@@ -1,0 +1,10 @@
+# Marker file for Flutter tools and CI to recognize this directory as the Flutter project root.
+project:
+  name: tic_tac_toe_flutter_frontend
+  type: app
+  platforms:
+    - android
+    - web
+  sdk:
+    dart: ">=3.7.0 <4.0.0"
+    flutter: ">=3.29.0"

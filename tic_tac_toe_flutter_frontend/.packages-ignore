@@ -1,0 +1,6 @@
+# Ignore patterns for certain analyzers
+build/
+.dart_tool/
+android/.gradle/
+android/build/
+ios/Pods/

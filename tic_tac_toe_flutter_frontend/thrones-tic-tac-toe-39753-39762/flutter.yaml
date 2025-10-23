@@ -1,0 +1,8 @@
+# Flutter workspace manifest for CI/analyzers
+project:
+  type: flutter
+  root: tic_tac_toe_flutter_frontend
+  pubspec: tic_tac_toe_flutter_frontend/pubspec.yaml
+  android: tic_tac_toe_flutter_frontend/android
+  ios: tic_tac_toe_flutter_frontend/ios
+notes: "Used by CI to determine Flutter project root and pubspec path."

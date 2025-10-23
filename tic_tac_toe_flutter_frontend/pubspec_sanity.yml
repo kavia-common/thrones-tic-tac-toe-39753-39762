@@ -1,0 +1,9 @@
+# Minimal sanity workflow for tools that look for a pubspec job definition.
+# This is NOT a CI workflow file for GitHub/GitLab; it's a helper for analyzers.
+steps:
+  - name: flutter_pub_get
+    run: flutter pub get
+  - name: flutter_analyze
+    run: flutter analyze
+  - name: flutter_test
+    run: flutter test -r expanded
